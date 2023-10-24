@@ -13,6 +13,8 @@ incdir = include_directories('include')
 
 sources = [
     'src/main.cpp',
+    'src/bootstrap.cpp',
+    'src/MainWindow.cpp',
 ]
 
 deps = [

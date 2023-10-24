@@ -1,8 +1,7 @@
-#include "simplegl.hpp"
+#include "bootstrap.hpp"
 
-#include <iostream>
+int main(int argc, char* argv[]){
+    auto app = BootstrapApp::getInstance();
 
-int main(){
-    std::cout << "hello world" << std::endl;
-    return 0;
+    return app->launch(argc, argv);
 }
